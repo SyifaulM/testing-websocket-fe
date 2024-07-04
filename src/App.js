@@ -4,7 +4,7 @@ import Utama from './pages/Utama';
 import ClientPage from './pages/ClientPage';
 import { io } from "socket.io-client";
 
-const socket = io("https://c907-112-215-210-197.ngrok-free.app");
+const socket = io("https://testing-websocket-be.vercel.app");
 // const socket = "https://b8de-114-10-144-198.ngrok-free.app";
 
 function App() {
