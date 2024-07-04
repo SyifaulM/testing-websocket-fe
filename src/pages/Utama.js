@@ -1,7 +1,7 @@
 import React from 'react';
 import io from 'socket.io-client';
 
-const socket = io("https://testing-websocket-be.vercel.app");
+const socket = io("https://c907-112-215-210-197.ngrok-free.app");
 
 const Utama = () => {
     const sendNotification = (target) => {
